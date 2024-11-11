@@ -1,0 +1,54 @@
+header.custom-header {
+    background-color: #000000;
+}
+
+body {
+    background-color: #000000;
+}
+
+.formlook {
+    color: rgb(36, 255, 109);
+}
+
+.text-main2 {
+    color: rgb(36, 255, 109);
+}
+
+.text-main {
+    color: rgb(36, 255, 109);
+}
+
+.card-custom {
+    max-width: 250px;
+    margin: 0 auto;
+    background-color: #1e1e1e;
+    border-color: #ffffff;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+    transition: transform 0.3s linear, opacity 0.3s linear;
+    transform: scale(1);
+}
+
+.card-custom:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.card-spacing {
+    margin-bottom: 20px;
+   
+}
+
+.btn-primary {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    transition: background-color 1s linear, color 1s linear;
+}
+
+.btn-primary:hover {
+    background-color:  rgb(36, 255, 109);
+    border: 2px solid white;
+    color: white;
+    border:  rgb(36, 255, 109);
+}
