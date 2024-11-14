@@ -2,7 +2,7 @@ function calcularArea(){
     var aresta = Number(document.getElementById('aresta').value);
 
     if(!isNaN || aresta <=0){
-        document.getElementById('resultado').innerText = "Por favor, insira um valor valido !"
+        document.getElementById('resultado').innerText = "Por favor, insira valores validos ! "
         return;
     }
     var area = 6 * Math.pow(aresta, 2)

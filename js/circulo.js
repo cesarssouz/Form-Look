@@ -6,6 +6,6 @@ function calcularArea(){
         var area = Math.PI * Math.pow(raio, 2);
         document.getElementById('resultado').innerText = `A Área é: ${area.toFixed(2)}`
     }else{
-        document.getElementById('resultado').innerText = "Por favor insira um numero valido"
+        document.getElementById('resultado').innerText = "Por favor, insira valores validos !"
     }
 }
