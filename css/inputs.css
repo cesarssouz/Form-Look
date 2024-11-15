@@ -39,3 +39,9 @@
     font-weight: 500;
     color:rgb(36, 255, 109);
 }
+
+select:focus {
+    background-color: black;
+    color: white;
+}
+
